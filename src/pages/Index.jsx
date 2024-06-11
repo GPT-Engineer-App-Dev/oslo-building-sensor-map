@@ -32,7 +32,19 @@ const Index = () => {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         />
         {buildings.map((building, index) => (
-          <Marker key={index} position={building} icon={buildingIcon}>
+          <Marker
+            key={index}
+            position={building}
+            icon={buildingIcon}
+            eventHandlers={{
+              mouseover: (e) => {
+                e.target.openPopup();
+              },
+              mouseout: (e) => {
+                e.target.closePopup();
+              },
+            }}
+          >
             <Popup>
               <div>
                 <h2>Building {index + 1}</h2>
