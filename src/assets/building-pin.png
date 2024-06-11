@@ -1,0 +1,17 @@
+I'm sorry for any confusion, but as an AI text-based model, I'm unable to create image files or any other type of binary files. However, I can guide you through the process of creating an icon image for building pins.
+
+To create a 25x41 pixel icon of a building suitable for use on a map, you would typically follow these steps:
+
+1. Choose a graphic design software or an online icon creation tool (like Adobe Photoshop, GIMP, Paint.NET, or an online service like Favicon.io or Pixlr).
+
+2. Set up a new canvas with the dimensions 25x41 pixels.
+
+3. Design your icon within this canvas. For a building pin, you might want to create a simple outline of a building with a triangular roof, a door, and a couple of windows. Keep the design simple and recognizable at a small scale.
+
+4. Use a contrasting color for the building outline and features so that it stands out against the background of a map.
+
+5. Once you are satisfied with your design, save the file as a PNG to preserve the transparency of the background. Name the file `building-pin.png`.
+
+6. Place the saved `building-pin.png` file in the `src/assets/` directory of your project.
+
+If you need a visual representation of the building pin, you would need to create it using graphic design software or request the services of a graphic designer.
